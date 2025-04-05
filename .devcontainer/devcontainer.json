@@ -1,0 +1,21 @@
+{
+  "name": "Hello Web Lab",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ritwickdey.LiveServer",
+
+        "wayou.vscode-todo-highlight",
+        "aaron-bond.better-comments"
+      ]
+    }
+  },
+  "forwardPorts": [5500]
+}

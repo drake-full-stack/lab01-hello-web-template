@@ -6,7 +6,7 @@ In this lab, you'll get your development environment set up and publish your fir
 
 You'll:
 
-- Accept the GitHub Classroom assignment
+- Accept the GitHub Classroom assignment: https://classroom.github.com/a/2noqcM46
 - Launch a Codespace and write a basic `index.html` page
 - Commit and push your code to GitHub
 - Publish your page using GitHub Pages

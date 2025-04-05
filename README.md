@@ -45,6 +45,7 @@ Nothing! Just make sure:
 1. Click the GitHub Classroom link provided:
 2. Accept the assignmetn and wait for the repo to be created.
 3. Click "**Code --> Open in Coespaces**" to launch your environment.
+   ![codespaces](image.png)
 4. When it loads, you should see `index.html` and `README.md`
 
 ---

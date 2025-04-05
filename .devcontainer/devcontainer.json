@@ -11,7 +11,7 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ritwickdey.LiveServer",
-
+        "ms-vsliveshare.vsliveshare",
         "wayou.vscode-todo-highlight",
         "aaron-bond.better-comments"
       ]

@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "index.html file exists",
+      "setup": "",
+      "run": "[ -f index.html ]",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Contains <h1> element",
+      "setup": "",
+      "run": "grep -q '<h1>' index.html",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Contains <p> element",
+      "setup": "",
+      "run": "grep -q '<p>' index.html",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "At least one commit made",
+      "run": "git log | grep -q commit",
+      "points": 1
+    }
+  ]
+}
